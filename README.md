@@ -47,4 +47,15 @@ T-tests to determine if all manufacturing lots and each lot individually are sta
 
 ![This is an image](Images/t-test.png)
 
+**Summary** 
+The p-value of the first test is 0.06 which is above the assumed significance level of 0.05, so there is no statistical difference. The p-values for lots 1 and 2 are 1 and 0.6072 respectively, which is above the signficance level of 0.05, showing no statistical difference. The p-value for lot 3 is 0.04168 which is close enough to reject the null hypothesis and say that there is a statistical difference. 
+
 ## MechaCar Competitive Analysis
+
+* What metric or metrics are you going to test? Safety ratings and technological features.
+
+* What is the null hypothesis or alternative hypothesis? The null hypothesis would be cars which have built-in/active safety technology have higher safety ratings.
+
+* What statistical test would you use to test the hypothesis? And why? A chi-squared test would help determine if there is a difference in categorical frequencies between feature groups.
+
+* What data is needed to run the statistical test? Safety ratings by model and their categorical safety features.
